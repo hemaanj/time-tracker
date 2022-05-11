@@ -89,4 +89,11 @@
             </plugin>
         </plugins>
     </reporting>
+         <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>a0kzoxsl10ifg-artifactory-primary-0-releases</name>
+        <url>https://serverlessworld.jfrog.io/artifactory/checkbuild-libs-release-local</url>
+    </repository>
+</distributionManagement>
 </project>
